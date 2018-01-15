@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SweetAlertDialog</string>
+    <string name="show_loading_progress">Show loading progress</string>
+    <string name="simple_dialog">Simple dialog</string>
+    <string name="dialog_with_subtext">Dialog with subtext.</string>
+    <string name="error_dialog">Error Dialog</string>
+    <string name="success_dialog">Success Dialog</string>
+    <string name="warning_dialog_with_success_listener">Warning dialog with success listener</string>
+    <string name="full_feature_warning_dialog">Full feature warning dialog</string>
+    <string name="dialog_with_custom_icon">Dialog with custom icon</string>
 </resources>

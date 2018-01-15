@@ -1,9 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-package="cn.pedant.SweetAlert"
-android:versionCode="2"
-android:versionName="1.1">
+    package="com.masoomyf.SweetAlert"
+    android:versionCode="1"
+    android:versionName="1.0">
 
-<uses-sdk android:minSdkVersion="9" android:targetSdkVersion="17"/>
 
 <application />
 

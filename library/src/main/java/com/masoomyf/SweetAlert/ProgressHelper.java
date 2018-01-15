@@ -1,4 +1,4 @@
-package cn.pedant.SweetAlert;
+package com.masoomyf.SweetAlert;
 
 import android.content.Context;
 
@@ -16,16 +16,16 @@ public class ProgressHelper {
     private float mProgressVal;
     private int mCircleRadius;
 
-    public ProgressHelper(Context ctx) {
+    public ProgressHelper(Context context) {
         mToSpin = true;
         mSpinSpeed = 0.75f;
-        mBarWidth = ctx.getResources().getDimensionPixelSize(R.dimen.common_circle_width) + 1;
-        mBarColor = ctx.getResources().getColor(R.color.success_stroke_color);
+        mBarWidth = context.getResources().getDimensionPixelSize(R.dimen.common_circle_width) + 1;
+        mBarColor = context.getResources().getColor(R.color.success_stroke_color);
         mRimWidth = 0;
         mRimColor = 0x00000000;
         mIsInstantProgress = false;
         mProgressVal = -1;
-        mCircleRadius = ctx.getResources().getDimensionPixelOffset(R.dimen.progress_circle_radius);
+        mCircleRadius = context.getResources().getDimensionPixelOffset(R.dimen.progress_circle_radius);
     }
 
     public ProgressWheel getProgressWheel () {

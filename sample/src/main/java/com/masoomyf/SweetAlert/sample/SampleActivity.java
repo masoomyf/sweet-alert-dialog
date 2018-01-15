@@ -1,11 +1,11 @@
-package cn.pedant.SweetAlert.sample;
+package com.masoomyf.SweetAlert.sample;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
 
-import cn.pedant.SweetAlert.SweetAlertDialog;
+import com.masoomyf.SweetAlert.SweetAlertDialog;
 
 public class SampleActivity extends Activity implements View.OnClickListener {
 

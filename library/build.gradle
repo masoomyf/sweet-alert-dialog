@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 version = VERSION_NAME
-group = GROUP
+group = 'com.github.masoomyf'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
